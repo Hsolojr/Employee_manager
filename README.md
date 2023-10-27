@@ -66,15 +66,11 @@ The application adheres to the following acceptance criteria:
 - WHEN I choose to update an employee role
   - THEN I am prompted to select an employee to update and their new role
 
-## Screenshots
-Insert screenshots of the application here if available.
+## Live Demo
+Here is a Demo of this application. Click Here [https://drive.google.com/file/d/1wwNOMxC7a2FIyYW7pFu1SWc5fntFizbL/view]
 
 ## Contributing
-Contributions are welcome. Please open an issue or create a pull request to suggest improvements or report bugs.
+I would like to thank Jeremiah for the idea of using Cfont to import into the terminal when running Node
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-**Note:** Make sure to replace `your-username` with your GitHub username in the installation instructions, and add screenshots if available.
