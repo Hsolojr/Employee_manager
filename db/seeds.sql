@@ -1,4 +1,4 @@
--- Inserts name of department into 'department' table -- 
+-- Populate the 'department' table with department names
 INSERT INTO department (name)
 VALUES 
   ('Marketing Department'),
@@ -8,7 +8,7 @@ VALUES
   ('Human Resources'),
   ('Finance Department');
 
--- Inserts titles of role with salary and department role belongs to into 'role' table --
+-- Populate the 'role' table with role titles, salaries, and associated departments
 INSERT INTO role (title, salary, department_id)
 VALUES 
   ('Marketing Manager', 75000, 2),
@@ -27,7 +27,7 @@ VALUES
   ('Product Manager', 60000, 1),
   ('Marketing Analyst', 85000, 2);
 
--- Gives employees first and last name, a role id, and a manager id (if applicable) -- 
+-- Assign first and last names to employees, along with role and manager information
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
 ('Angelina', 'Jolie', 1, NULL),
