@@ -1,9 +1,9 @@
-// Imports necessary programs
+// Importing required libraries
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
 const cfonts = require('cfonts');
 
-// Connect to local host and database
+// Establish connection to the local host and the 'employees_db' database
 const connection = mysql.createConnection({
 	host: '127.0.0.1',
 	user: 'root',
@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
 	database: 'employees_db',
 });
 
-// Test connection to database
+// Verify the connection to the database
 connection.connect((err) => {
 	if (err) {
 		console.error('Database connection error: ' + err.stack);
@@ -20,7 +20,7 @@ connection.connect((err) => {
 	console.log('Connected to database');
 });
 
-// Inquirer menu and selection options
+// Define the Inquirer menu and available selection options
 const menuPrompt = {
 	type: 'list',
 	name: 'action',
